@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+.company-name{
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+  border: solid;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.grid-container-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* grid-template-columns:1fr,1fr,1fr; */
+  /* grid-gap: 1rem; */
+  /* padding: 2rem 0; */
+}
+
+.grid-item-leader {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  grid-template-columns: 1fr 1fr ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+
+}
+.harshdeep{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.founder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.grid-item h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.team-member {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.team-member h3 {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid-item {
+      padding: 2rem;
+  }
+}
+.image-profile{
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+}
